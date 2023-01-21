@@ -40,20 +40,19 @@
 # print('Каждый торчит: ', total_score/total_people, 'руб')
 
 
-
-#9
-total_time = int(input('Введи время в днях - '))
-
-print(total_time)
-#(1 час = 1/24 дня (суток) = 0,041(6) дней (суток) 1 день (сутки) = 24 часа
-0,041 дня = 1 час
-print('в веденных данных ', 'часов', 'минут', 'секунд')
+#
+# #9
+# days = int(input('Введи время в днях - '))
+# hours = days * 24
+# minutes = hours * 60
+# seconds = minutes * 60
+#
+# print('в веденных данных ', hours,  'часa(ов),', minutes,  'минут,', seconds, 'секунд.')
 
 # #10
-# phount = 2.204
 # input_value = int(input('Введи вес в килограммах >>> '))
-# kg_ph = input_value * phount
-# print(round(kg_ph, 2), 'фунтов')
+# kg_ph = input_value * 2.204
+# print(round(kg_ph, 12), 'фунтов')
 
 # #11
 # num1 = int(input('Введи число больше 100 >>> '))
