@@ -23,7 +23,7 @@
 
 #15
 # color = (input(' Enter color >>> ')).lower()
-# # if color == 'red':
+# if color == 'red':
 #     print('I like red too')
 # else:
 #     print('I don`t like', color, ', i prefer red')
@@ -58,6 +58,7 @@
 #     print('too low')
 # else:
 #     print('Too high')
+
 # #19
 # num = int(input(' Enter 1, 2 or 3: '))
 # if num == 1:
