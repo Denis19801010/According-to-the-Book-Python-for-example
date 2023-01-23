@@ -71,13 +71,49 @@
 # выведите сообщение «Too high» и предложите повторить попытку. Повторяйте до тех пор, пока не
 # будет введено значение из диапазона от 10 до 20, после чего выведите сообщение «Thank you».
 
-number = int(input('Enter number from 10 to 20 >>> '))
+# number = int(input('Enter number from 10 to 20 >>> '))
+#
+# while number < 10 or number > 20:           #10 < number < 20:
+#     if number < 10:
+#         print('too low')
+#     else:
+#         print('too high')
+#     number = int(input('Enter number from 10 to 20 >>> '))
+# print('Thank you')
 
-while number > 20:
-    print('too high')
-if number <10:
-    print('too low')
-    number = int(input('Enter number from 10 to 20 >>> '))
-print('Thank you')
+# # 51 Выведите строки «There are [счетчик] green bottles hanging on the wall, [счетчик] green bottles
+# # hanging on the wall, and if 1 green bottle should accidentally fall». Затем выведите вопрос: «how many
+# # green bottles will be hanging on the wall?». Если пользователь ответит правильно, выведите сообще-
+# # ние «There will be [счетчик] green bottles hanging on the wall». Если пользователь ответит неправиль-
+# # но, выведите сообщение «No, try again», пока не будет дан правильный ответ. Когда счетчик умень-
+# # шится до 0, выведите сообщение «There are no more green bottles hanging on the wall».
+# num = int(input('Enter quantity bottles >>> '))
+# print('There are', num, 'green bottles hanging on the wall,', num, '''green bottles hanging on the wall,
+# and if 1 green bottle should accidentally fall''')
+# num1 = int(input('how many green bottles will be hanging on the wall?'))
+# print(num)
+# while num1 != 0:
+#     num -= num1
+#     print(num1)
+
+
+ #51 Выведите строки «[счетчик] зеленых бутылки стояли на столе, [счетчик] зеленых бутылки стояли на столе
+# и есил одна бутылка упала со стола». Затем выведите вопрос: «сколько зеленых бутылок осталось на столе?».
+# Если пользователь ответит правильно, выведите сообщение «Да, [счетчик] зеленых бутылки осталось на столе
+# Если пользователь ответит неправильно, выведите сообщение «No, try again», пока не будет дан правильный ответ.
+# Когда счетчик уменьшится до 0, выведите сообщение «больше не осталось бутылок на столе».
+# num = int(input('сколько пузырей >>> '))
+# while num > 0:
+#     print(num, 'зеленых бутылки стояли на столе,', num, '''зеленых бутылки стояли на столе,
+#     но вдруг одна бутылка упала со стола''')
+#     num -= 1
+#     num1 = int(input('то сколько бутылок осталось на столе?'))
+#     if num1 == num:
+#         print(num1, ' бутылок осталось на столе')
+#     else:
+#         while num1 != num:
+#             num1 = int(input('НЕПРАВИЛЬНО'))
+# print('Всё кончились пузыри')
+
 
 
