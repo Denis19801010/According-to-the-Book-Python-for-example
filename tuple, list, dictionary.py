@@ -52,3 +52,92 @@
 # 74 Введите список из десяти цветов. Предложите пользователю ввести начальное число в диапазоне от
 # 0 до 4 и конечное число в диапазоне от 5 до 9. Выведите список цветов из интервала, заданного
 # начальным и конечным числом.
+#  Н Е Т   Р Е Ш Е Н И Я
+#
+# colours = ["red", "black", "white", "green", "purple", "gray", "orange", "blue", "yellow", "silver"]
+# num1 = int(input('Enter the color from 0 to 4 >>> '))
+# num2 = int(input('Enter color from 5 to 9 >>> '))
+# print(colours(num1 : num2))
+
+# 75 Создайте список из четырех трехзначных чисел. Выведите содержимое списка, при этом каждый
+# элемент должен выводиться на отдельной строке. Предложите пользователю ввести число из трех
+# цифр. Если введенное число совпадает с одним из чисел в списке, выведите позицию этого числа;
+# в противном случае выведите сообщение «That is not in the list».
+
+# num_list = [123, 456, 789, 012]
+# for i in num_list:
+# 	print(i)
+# num = int(input('Enter number >>> '))
+# if num in num_list:
+# 	print(num_list.index(num))
+# else:
+# 	print('That is not in the list')
+
+
+# 76 Предложите пользователю ввести имена трех людей, которых он хочет пригласить на вечеринку,
+# и сохраните их в списке. После того как будут введены все три числа, спросите, хочет ли
+# пользователь добавить еще одно имя. Если ответ будет положительным, предложите ему добавлять
+# имена, пока не получите ответ «no». После ответа «no» выведите количество людей, приглашенных на вечеринку.
+
+# on_party = []
+# people_on_party = on_party.append(input('Enter people >>> '))
+# for i in range(0, 2):
+# 	people_on_party = on_party.append(input('Enter people >>> '))
+#
+# more_people = input('Did you want more people?: ')
+# while more_people != 'no':
+# 	people_on_party = on_party.append(input('Enter people >>> '))
+# 	more_people = input('Did you want more people?: ')
+# print('All people .... :', len(on_party))
+#
+# 77 Измените программу 076, чтобы после ввода списка имен программа выводила полный список.
+# Предложите пользователю ввести одно из имен в списке и выведите позицию имени в списке. Спро-
+# сите, хочет ли пользователь, чтобы этот человек присутствовал на вечеринке. Если пользователь от-
+# ветит «no», удалите элемент из списка и снова выведите список.
+
+# on_party = []
+# people_on_party = on_party.append(input('Enter people >>> '))
+# for i in range(0, 2):
+# 	people_on_party = on_party.append(input('Enter people >>> '))
+# 	print(on_party)
+#
+# more_people = input('Did you want more people?: ')
+# while more_people != 'no':
+# 	people_on_party = on_party.append(input('Enter people >>> '))
+# 	print(on_party)
+# 	more_people = input('Did you want more people?: ')
+#
+# print('All people .... :', len(on_party))
+#
+# name = input('Enter the name from list >>> ')
+# print(on_party.index(name))
+# name_remove = input('Do you want to see that man on the party?: ')
+# if name_remove == 'no':
+# 	on_party.remove(name)
+# print(on_party)
+
+# 78 Создайте список с названиями четырех телевизионных передач и выведите их на отдельных строках.
+# Предложите пользователю ввести название еще одной передачи и позицию, на которой она должна быть
+# вставлена в список. Снова выведите список, в котором все пять передач находятся на новых позициях.
+#
+# tv_programs = ['Vesti', '1 channel', 'tnt4', 'ctc']
+# for i in tv_programs:
+# 	print(i)
+#
+# place = int(input('Enter place for programm >>> '))
+# progr = input('Enter one more tv programm >>> ')
+# tv_programs.insert(place, progr)
+# print(tv_programs)
+
+# 79 Создайте пустой список с именем nums. Предложите пользователю последовательно вводить числа. После ввода
+# каждого числа добавьте его в конец списка nums и выведите список. После того как пользователь введет
+# три числа, спросите, хочет ли он оставить последнее введенное число в списке. Если пользователь от-
+# ветит «no», удалите последний элемент из списка. Выведите список.
+
+nums = []
+num = nums.append(input('Enter numbers >>> '))
+print(nums)
+
+
+
+
