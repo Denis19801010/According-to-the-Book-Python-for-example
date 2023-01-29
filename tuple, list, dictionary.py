@@ -135,7 +135,13 @@
 # ветит «no», удалите последний элемент из списка. Выведите список.
 
 nums = []
-num = nums.append(input('Enter numbers >>> '))
+for i in range(3):
+	num = nums.append(int(input('Enter numbers >>> ')))
+print(nums)
+if i == 2:
+	ask = input('Would you want stay last number in thr list (y/n)')
+	if ask == 'n':
+		del nums[2]
 print(nums)
 
 
