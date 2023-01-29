@@ -52,4 +52,21 @@
 #     print(name)
 #     print('In your name is ', ' glasnih')
 #
-# НЕ ПОЛУЧАЕТСЯ СДЕЛАТЬ
+ НЕ ПОЛУЧАЕТСЯ СДЕЛАТЬ
+
+# 86 Предложите пользователю ввести пароль, а затем предложите ввести его повторно.
+# Если два пароля совпадут, выведите сообщение «Thank you». Если буквы введены
+# правильно, но различаются регистром, выведите сообщение
+# «They must be in the same case»;в противном случае выводится сообщение «Incorrect».
+
+# password1 = input('Enter password: ')
+# password2 = input('Enter password again: ')
+# if password1 == password2:
+#     print('Thank you')
+# elif password1.lower() == password2.lower():
+#     print('They must be in the same case')
+# else:
+#     print('Incorrect password')
+
+
+
