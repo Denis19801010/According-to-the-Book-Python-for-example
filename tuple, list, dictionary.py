@@ -134,15 +134,15 @@
 # три числа, спросите, хочет ли он оставить последнее введенное число в списке. Если пользователь от-
 # ветит «no», удалите последний элемент из списка. Выведите список.
 
-nums = []
-for i in range(3):
-	num = nums.append(int(input('Enter numbers >>> ')))
-print(nums)
-if i == 2:
-	ask = input('Would you want stay last number in thr list (y/n)')
-	if ask == 'n':
-		del nums[2]
-print(nums)
+# nums = []
+# for i in range(3):
+# 	num = nums.append(int(input('Enter numbers >>> ')))
+# print(nums)
+# if i == 2:
+# 	ask = input('Would you want stay last number in thr list (y/n)')
+# 	if ask == 'n':
+# 		del nums[2]
+# print(nums)
 
 
 
