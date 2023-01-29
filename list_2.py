@@ -52,7 +52,7 @@
 #     print(name)
 #     print('In your name is ', ' glasnih')
 #
- НЕ ПОЛУЧАЕТСЯ СДЕЛАТЬ
+НЕ ПОЛУЧАЕТСЯ СДЕЛАТЬ
 
 # 86 Предложите пользователю ввести пароль, а затем предложите ввести его повторно.
 # Если два пароля совпадут, выведите сообщение «Thank you». Если буквы введены
@@ -67,6 +67,13 @@
 #     print('They must be in the same case')
 # else:
 #     print('Incorrect password')
+
+# 87 введи слово , выведи его снизу вверх в столбик
+# word = input('Enter word >>> ')
+# word = word[::-1]
+# for i in word:
+#     print(i)
+#
 
 
 
