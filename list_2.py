@@ -26,9 +26,30 @@
 # 83 Предложите пользователю ввести слово в верхнем регистре. Если не все буквы
 # слова будут указаны в верхнем регистре, попросите ввести слово заново.
 # Повторяйте попытки, пока пользователь не введет сообщение в верхнем регистре.
+#
+# word = input('Enter word in UPPER: ')
+# word.isupper()
+# while not word.isupper():  # у меня было while word.isupper() == False:
+#     word = input('Enter word in UPPER: ')
 
-word = input('Enter word in UPPER: ')
-word.isupper()
-while not word.isupper():  # у меня было while word.isupper() == False:
-    word = input('Enter word in UPPER: ')
+# 84 Предложите пользователю ввести его почтовый индекс. Выведите первые
+# две буквы слова в верхнем регистре1.
 
+# ВОТ ЭТОТ ПОЧТОВЫЙ ИНДЕКС: Grand Central BRM – 10164
+
+# index = input('Enter the post index: ')
+# adres = index[0:2]
+# print(adres.upper())
+
+
+# 85 Предложите пользователю ввести имя,а затем сообщите, сколько в нем
+# гласных букв.
+#
+# glas_letters = ('а', 'о', 'у', 'ы', 'и', 'э')
+# name = input('Enter your name: ').lower()
+# letter = 0
+# for name in glas_letters:
+#     print(name)
+#     print('In your name is ', ' glasnih')
+#
+# НЕ ПОЛУЧАЕТСЯ СДЕЛАТЬ
